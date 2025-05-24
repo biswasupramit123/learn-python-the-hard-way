@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height in centimeters: "))
+weight = float(input("Enter your weight in kilograms: "))
+eyes = input("Enter your eye color: ")
+hair = input("Enter your hair color: ")
+teeth = input("Enter your teeth color: ")
+favorite_color = input("Enter your favorite color: ")
+print ("So, %s, you're %i years old, %.1f cm tall, and %.1f kg heavy, with %s eyes and %s hair. Your teeth are usually %s, and your favorite color is %s." %
+       (name, age, height, weight, eyes, hair, teeth, favorite_color))
